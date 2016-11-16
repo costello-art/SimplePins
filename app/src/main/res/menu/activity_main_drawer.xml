@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Manage">
+        <menu>
+            <item
+                android:id="@+id/nav_store_location"
+                android:icon="@android:drawable/ic_dialog_map"
+                android:title="@string/nav_store_location" />
+
+            <item
+                android:id="@+id/nav_delete_all"
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="@string/nav_remove_all_pins" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_notification_clear_all"
+            android:title="@string/logout"/>
+    </group>
+</menu>

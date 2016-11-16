@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Simple Pins</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings_save_my_location">Save my location</string>
+
+    <string name="facebook_app_id">576150665918918</string>
+    <string name="fb_login_protocol_scheme">fb576150665918918</string>
+
+    <string name="permission_rationale_location">Access to the location service is required to show your current location on the map.</string>
+    <string name="location_permission_denied">The Simple Pins requires location permission to show your location. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'SimplePins\'.</string>
+
+    <string name="logout">Logout</string>
+    <string name="err_location_permission_revoked">Location permission was revoked. Unable to get current location</string>
+    <string name="current_location_saved">Current location has been saved</string>
+    <string name="err_unable_to_remove_marker">Unable to remove pin</string>
+    <string name="marker_updated">Pin updated</string>
+    <string name="err_unable_to_update_marker">Pin upd fail</string>
+    <string name="err_unable_to_save_marker">Unable to save marker</string>
+    <string name="err_unable_to_login">"Login error: "</string>
+    <string name="dialog_enable_location_title">Location disabled</string>
+    <string name="dialog_enable_location_descr">In order to see your location, please enable location services</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="dialog_confirm_remove_all">Do you want to remove all pins?</string>
+    <string name="toast_all_pins_removed">All pins has been removed</string>
+    <string name="toast_unable_to_remove_all_pins">Unable to remove all pins</string>
+    <string name="nav_store_location">Save current location</string>
+    <string name="nav_remove_all_pins">Remove all pins</string>
+</resources>
